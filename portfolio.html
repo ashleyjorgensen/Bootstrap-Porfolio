@@ -3,66 +3,122 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <title>Portfolio | Ashley Jorgensen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- Main Header -->
+    <header id="mainhead">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <div class="col-3">
+                            <div id="floatleft">
+                                <a class="navbar-brand" href="#">Ashley Jorgensen</a>
+                            </div>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-5">
+                            <div id="floatright">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">About
+                                                <span class="sr-only">(current)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-<!-- Main Header -->
-<header id="mainhead">
-    <div class="container">
-        <a href="index.html" id="logo">Ashley Jorgensen</a> 
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div id="main-container" class="container content">
+        <div class="row">
+            <div class="col-12">
+
+
+                <section class="main-section">
+
+                    <!-- Portfolio -->
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Portfolio</h1>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Items -->
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="work">
+                                <img src="assets/images/hero-snowboarding-q-c-640-480.jpg" alt="Snowboarding">
+                                <h3>Snowboarding</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="work">
+                                <img src="assets/images/camping-expert-north-cascade-range-washington-lightweight-tent-0514.jpg" alt="Camping">
+                                <h3>Camping</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="work">
+                                <img src="assets/images/340x280.png" alt="Cooking">
+                                <h3>Cooking</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="work">
+                                <img src="assets/images/340x280.png" alt="Pilates">
+                                <h3>Pilates</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="work">
+                                <img src="assets/images/340x280.png" alt="Puppies">
+                                <h3>Puppies</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </div>
-</header>
 
-<div id="main-container" class="container">
-    <section class="main-section">
-
-<!-- Portfolio -->
-<h1>Portfolio</h1>
-
-<!-- Portfolio Items -->
-<div class="work">
-    <img src="assets/images/hero-snowboarding-q-c-640-480.jpg" alt="Snowboarding">
-    <h3>Snowboarding</h3>
-</div>
-
-<div class="work">
-    <img src="assets/images/camping-expert-north-cascade-range-washington-lightweight-tent-0514.jpg" alt="Camping">
-    <h3>Camping</h3>
-</div>
-
-<div class"work">
-    <img src="assets/images/340x280.png" alt="Cooking">
-    <h3>Cooking</h3>
-</div>
-
-<div class="work">
-    <img src="assets/images/340x280.png" alt="Pilates">
-    <h3>Pilates</h3>
-</div>
-
-<div class="work">
-    <img src="assets/images/340x280.png" alt="Puppies">
-    <h3>Puppies</h3>
-</div>
-    </section>
-</div>
-
-<footer>
-    <div class="container">
-        Copyright &copy;
+    <div class="row">
+        <div class="col-12">
+            <footer>
+                <div class="container">
+                    Copyright &copy;
+                </div>
+            </footer>
+        </div>
     </div>
-</footer>
 </body>
+
 </html>
